@@ -40,5 +40,23 @@ def get_goal_recommendation(goal):
         return "Incorporate long cardio sessions and interval training."
     else:
         return "Set a clear fitness goal."
+    
+# Ask the user for a daily coloric estimate
+
+def estimate_calories(weight, activity_level):
+    base_calories = weight * 14  # simple baseline
+    multiplier = get_activity_multiply(activity_level)
+    return int(base_calories * multiplier)
+
+#Provide a user summary
+def generate_user_summary(user):
+    calories = estimate_calories(user.weight, user.activity_level)
+    recommendation = get_goal_recommendation(user.goal)
+
+    return {
+        "Profile": user.display_profile(),
+        "Estimated Daily Calories": calories,
+        "Recommendation": recommendation
+    }
 
    
