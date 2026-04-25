@@ -30,4 +30,15 @@ def get_activity_multiply (activity_level):
       }
       return levels.get(activity_level, 1.2)
       
+#Make some reccommendations (fat loss, increase muscle, cardio, eating habits)
+def get_goal_recommendation(goal):
+    if goal == "fat_loss":
+        return "Focus on calorie deficit, cardio 3-5x/week, and light strength training."
+    elif goal == "muscle_gain":
+        return "Increase protein intake, lift weights 4-6x/week, and progressively overload."
+    elif goal == "endurance":
+        return "Incorporate long cardio sessions and interval training."
+    else:
+        return "Set a clear fitness goal."
+
    
