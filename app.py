@@ -118,3 +118,19 @@ plt.title("Bench Press Progress")
 plt.xlabel("Day")
 plt.ylabel("Weight (lbs)")
 plt.show()
+
+#Track the workout volume
+exercises = ["Squat", "Bench", "Deadlift"]
+sets = [5, 4, 3]
+
+plt.bar(exercises, sets)
+plt.title("Workout Volume")
+plt.show()
+
+#track calories burned
+days = [1,2,3,4,5]
+calories = [300, 450, 500, 400, 550]
+
+plt.plot(days, calories)
+plt.title("Calories Burned Over Time")
+plt.show()
