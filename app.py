@@ -134,3 +134,4 @@ calories = [300, 450, 500, 400, 550]
 plt.plot(days, calories)
 plt.title("Calories Burned Over Time")
 plt.show()
+
