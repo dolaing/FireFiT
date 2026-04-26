@@ -108,3 +108,13 @@ def get_exercise_progress(workouts, exercise_name):
 
 #Create the basic dashboard for the app
 #Import Matplotlib to help with prototype charts and graphs of progression
+
+import matplotlib.pyplot as plt
+dates = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+weights = [125, 135, 155, 160, 165]
+
+plt.plot(dates, weights)
+plt.title("Bench Press Progress")
+plt.xlabel("Day")
+plt.ylabel("Weight (lbs)")
+plt.show()
