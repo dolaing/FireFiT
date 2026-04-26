@@ -14,3 +14,11 @@ Graph progress
 Simple menu-based interface
 editting or deleting entries
 Weight watcher
+
+*****************************
+Overview of steps taken 
+Step 1.
+ The first thing we did was to create a userr profile for our customers in whihc personal and fitness information can be stored. These information included name, age ,weight and height along with their fitness goals and activity levels. These therefore allow the app to start with the basics needed to implement and track their workouts as it brings them closer to their goals. This ensures that a personal connection is built between tehchnology and human aiming to achieve a common goal.
+
+ Step 2
+
