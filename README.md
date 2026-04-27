@@ -17,8 +17,22 @@ Weight watcher
 
 *****************************
 Overview of steps taken 
+
 Step 1.
  The first thing we did was to create a userr profile for our customers in whihc personal and fitness information can be stored. These information included name, age ,weight and height along with their fitness goals and activity levels. These therefore allow the app to start with the basics needed to implement and track their workouts as it brings them closer to their goals. This ensures that a personal connection is built between tehchnology and human aiming to achieve a common goal.
 
- Step 2
+ Step 2:
+ Next, we added the logic thag makes the profile interactable, Activity levels are converted to estimate how active a person is along with their fitness goals were used to give basic recommendations. this therefore will help us to use the raw data 
+ 
+ Step 3:
+ Implementing a simple formula to estimate  the calorie intake o user and what they should consume on a daily basis. We will take into consderation their body weight and activity level. This therefore can help us to understand the nutritional intake which connects directly to our users achieving their goals
+
+ Step 4:
+  Now its time to track and develop  the workout systems for the app. With this feature we will be able to develop an excercise class that stores the details along with the movements such as sets and reps. A workout class the groups the excercises into one session with dates and a workoutlogger class that stores all the workouts and allows you to retrieve them. This there allows us to record what is actually happening in the gym which is critical for the tracking progress.
+  
+Step 5.
+A Progress tracker was then developed so the users will be able to look bavk and track their progeess. These excercises will there change overtime with the history of ther weights and reps. This app will then start to creat a progress analysis, which seprates the simple tracker from a normal smart fitness app.
+
+Step 6.
+Instead of just showing numbers we also used a matplotlib which helped to display the progress over time using user-friendly and visual graphs that can help the user to better understand their progression and help them to see the improvement, plateau and decline.
 
