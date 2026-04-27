@@ -61,7 +61,7 @@ def generate_user_summary(user):
 
    ####### User Set is done , now its time for Logging Data#######
 
-   #class Exercise:
+class Exercise:
     def __init__(self, name, set, reps, weight):
         self.name = name
         self.set = set
