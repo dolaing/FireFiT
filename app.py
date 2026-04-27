@@ -1,6 +1,7 @@
 print("Welcome to the FireFit Family!")
 
 #Ask the user to input information upon downloading the app
+#https://www.w3schools.com/python/python_functions.asp
 class UserProfile:
   def __init__(self, name, age, weight, height, goal, activity_level):
         self.name = name
@@ -108,6 +109,9 @@ def get_exercise_progress(workouts, exercise_name):
 
 #Create the basic dashboard for the app
 #Import Matplotlib to help with prototype charts and graphs of progression
+#https://matplotlib.org/stable/tutorials/index.html?utm_source=chatgpt.com
+#https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
+#https://www.w3schools.com/python/matplotlib_subplot.asp
 
 import matplotlib.pyplot as plt
 dates = ["Mon", "Tue", "Wed", "Thu", "Fri"]
@@ -135,3 +139,4 @@ plt.plot(days, calories)
 plt.title("Calories Burned Over Time")
 plt.show()
 
+#https://www.w3schools.com/python/python_pip.asp
